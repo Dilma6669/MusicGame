@@ -5,8 +5,8 @@ using UnityEngine;
 public class SpellManager : MonoBehaviour
 {
     [SerializeField] public List<Spell> AllSpells;
-
-    public GuitarInteractionManager GuitarManager;
+    
+    public ChordSaver ChordSaver;
 
     public TextMeshProUGUI ResultPanel;
 
@@ -17,82 +17,73 @@ public class SpellManager : MonoBehaviour
         ResultPanel.text = spellCast.ToString();
         
         GuitarInteractionManager.ClearAllSelectedFrets();
+        ChordSaver.ResetRecordedChords(); // Reset the recorded chords for the next spell attempt
     }
     
     public SpellType CheckForSpell()
     {
-        // Get the current states of the fret buttons for ALL strings
-        FretPattern playerFrets = new FretPattern();
-        
-        // Initialize the player's fret pattern with a default of -1 (muted) for each string.
-        playerFrets.string_1_Fret = -1;
-        playerFrets.string_2_Fret = -1;
-        playerFrets.string_3_Fret = -1;
-        playerFrets.string_4_Fret = -1;
-        playerFrets.string_5_Fret = -1;
-        playerFrets.string_6_Fret = -1;
+        // Get the full sequence of chords the player has recorded
+        FretPattern[] playerChords = ChordSaver.GetRecordedChords();
 
-        // Populate the FretPattern with the player's current selection.
-        // We will now iterate backwards to get the fret order correct (Low E to High E)
-        for (int i = GuitarManager.StringRows.Count - 1; i >= 0; i--)
+        // Check if the player has recorded the correct number of chords (4)
+        if (playerChords.Length != 4)
         {
-            foreach (var fretButton in GuitarManager.StringRows[i].GetComponentsInChildren<FretButton>())
+            Debug.Log("Please record 4 chords before attempting a spell.");
+            ResultPanel.text = "Fail! (Need 4 chords)";
+            return SpellType.None;
+        }
+
+        // We will no longer print the player's single fret pattern.
+        // Instead, we will check the full recorded sequence.
+
+        // Now, we'll check if the player's input sequence matches any of our defined spells.
+        foreach (var spell in AllSpells)
+        {
+            // First, check if the required number of chords matches the player's input
+            if (spell.RequiredFrets.Length != playerChords.Length)
             {
-                if (fretButton.CurrFretButtonStateEnum == GuitarInteractionManager.FretButtonStatesEnum.Selected)
+                continue; // Skip spells that don't have a 4-chord sequence
+            }
+            
+            bool fretsMatch = true;
+            // Loop through each of the 4 chords in the sequence
+            for (int i = 0; i < 4; i++)
+            {
+                // Compare the player's chord at this position with the required chord for the spell
+                FretPattern requiredChord = spell.RequiredFrets[i];
+                FretPattern playerChord = playerChords[i];
+
+                if (!CheckSingleFret(requiredChord.string_1_Fret, playerChord.string_1_Fret)) fretsMatch = false;
+                if (!CheckSingleFret(requiredChord.string_2_Fret, playerChord.string_2_Fret)) fretsMatch = false;
+                if (!CheckSingleFret(requiredChord.string_3_Fret, playerChord.string_3_Fret)) fretsMatch = false;
+                if (!CheckSingleFret(requiredChord.string_4_Fret, playerChord.string_4_Fret)) fretsMatch = false;
+                if (!CheckSingleFret(requiredChord.string_5_Fret, playerChord.string_5_Fret)) fretsMatch = false;
+                if (!CheckSingleFret(requiredChord.string_6_Fret, playerChord.string_6_Fret)) fretsMatch = false;
+                
+                // If any chord in the sequence doesn't match, we can stop checking this spell
+                if (!fretsMatch)
                 {
-                    // If a fret is selected on this string, record its fret number
-                    // The switch statement now maps the reverse iteration to the correct string field
-                    switch(i)
-                    {
-                        case 5: playerFrets.string_1_Fret = fretButton.FretNumber; break;
-                        case 4: playerFrets.string_2_Fret = fretButton.FretNumber; break;
-                        case 3: playerFrets.string_3_Fret = fretButton.FretNumber; break;
-                        case 2: playerFrets.string_4_Fret = fretButton.FretNumber; break;
-                        case 1: playerFrets.string_5_Fret = fretButton.FretNumber; break;
-                        case 0: playerFrets.string_6_Fret = fretButton.FretNumber; break;
-                    }
                     break;
                 }
             }
-        }
-        
-        // Get the current states of the strum buttons
-        StrumPattern currentStrumPattern = new StrumPattern();
-        List<StrumButton> strumButtons = GuitarInteractionManager.AllStrumButtons;
-        
-        if (strumButtons.Count > 0)
-        {
-            currentStrumPattern.strum_1 = strumButtons[0].CurrStrumButtonStateEnum;
-            currentStrumPattern.strum_2 = strumButtons[1].CurrStrumButtonStateEnum;
-            currentStrumPattern.strum_3 = strumButtons[2].CurrStrumButtonStateEnum;
-            currentStrumPattern.strum_4 = strumButtons[3].CurrStrumButtonStateEnum;
-            currentStrumPattern.strum_5 = strumButtons[4].CurrStrumButtonStateEnum;
-            currentStrumPattern.strum_6 = strumButtons[5].CurrStrumButtonStateEnum;
-            currentStrumPattern.strum_7 = strumButtons[6].CurrStrumButtonStateEnum;
-            currentStrumPattern.strum_8 = strumButtons[7].CurrStrumButtonStateEnum;
-        }
-
-        Debug.Log("Player Input:");
-        Debug.Log($"Frets: [{playerFrets.string_1_Fret}, {playerFrets.string_2_Fret}, {playerFrets.string_3_Fret}, {playerFrets.string_4_Fret}, {playerFrets.string_5_Fret}, {playerFrets.string_6_Fret}]");
-        Debug.Log($"Strums: [{currentStrumPattern.strum_1}, {currentStrumPattern.strum_2}, {currentStrumPattern.strum_3}, {currentStrumPattern.strum_4}, {currentStrumPattern.strum_5}, {currentStrumPattern.strum_6}, {currentStrumPattern.strum_7}, {currentStrumPattern.strum_8}]");
-
-        
-        foreach (var spell in AllSpells)
-        {
-            Debug.Log($"Checking against spell: {spell.spellType}");
-            Debug.Log($"Required Frets: [{spell.RequiredFrets.string_1_Fret}, {spell.RequiredFrets.string_2_Fret}, {spell.RequiredFrets.string_3_Fret}, {spell.RequiredFrets.string_4_Fret}, {spell.RequiredFrets.string_5_Fret}, {spell.RequiredFrets.string_6_Fret}]");
-            Debug.Log($"Required Strums: [{spell.RequiredStrums.strum_1}, {spell.RequiredStrums.strum_2}, {spell.RequiredStrums.strum_3}, {spell.RequiredStrums.strum_4}, {spell.RequiredStrums.strum_5}, {spell.RequiredStrums.strum_6}, {spell.RequiredStrums.strum_7}, {spell.RequiredStrums.strum_8}]");
-            
-            bool fretsMatch = true;
-            
-            if (!CheckSingleFret(spell.RequiredFrets.string_1_Fret, playerFrets.string_1_Fret)) fretsMatch = false;
-            if (!CheckSingleFret(spell.RequiredFrets.string_2_Fret, playerFrets.string_2_Fret)) fretsMatch = false;
-            if (!CheckSingleFret(spell.RequiredFrets.string_3_Fret, playerFrets.string_3_Fret)) fretsMatch = false;
-            if (!CheckSingleFret(spell.RequiredFrets.string_4_Fret, playerFrets.string_4_Fret)) fretsMatch = false;
-            if (!CheckSingleFret(spell.RequiredFrets.string_5_Fret, playerFrets.string_5_Fret)) fretsMatch = false;
-            if (!CheckSingleFret(spell.RequiredFrets.string_6_Fret, playerFrets.string_6_Fret)) fretsMatch = false;
 
             bool strumsMatch = true;
+            // The strum logic remains the same, as it's a single pattern
+            StrumPattern currentStrumPattern = new StrumPattern();
+            List<StrumButton> strumButtons = GuitarInteractionManager.AllStrumButtons;
+            
+            if (strumButtons.Count > 0)
+            {
+                currentStrumPattern.strum_1 = strumButtons[0].CurrStrumButtonStateEnum;
+                currentStrumPattern.strum_2 = strumButtons[1].CurrStrumButtonStateEnum;
+                currentStrumPattern.strum_3 = strumButtons[2].CurrStrumButtonStateEnum;
+                currentStrumPattern.strum_4 = strumButtons[3].CurrStrumButtonStateEnum;
+                currentStrumPattern.strum_5 = strumButtons[4].CurrStrumButtonStateEnum;
+                currentStrumPattern.strum_6 = strumButtons[5].CurrStrumButtonStateEnum;
+                currentStrumPattern.strum_7 = strumButtons[6].CurrStrumButtonStateEnum;
+                currentStrumPattern.strum_8 = strumButtons[7].CurrStrumButtonStateEnum;
+            }
+
             if (spell.RequiredStrums.strum_1 == currentStrumPattern.strum_1 &&
                 spell.RequiredStrums.strum_2 == currentStrumPattern.strum_2 &&
                 spell.RequiredStrums.strum_3 == currentStrumPattern.strum_3 &&
@@ -121,6 +112,7 @@ public class SpellManager : MonoBehaviour
         return SpellType.None;
     }
     
+    // Helper method to check a single fret for a match.
     private bool CheckSingleFret(int requiredFret, int playerFret)
     {
         if (requiredFret == -1)

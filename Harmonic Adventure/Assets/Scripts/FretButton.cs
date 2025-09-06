@@ -1,6 +1,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
@@ -9,12 +10,19 @@ public class FretButton : MonoBehaviour
     public int StringRow;
     public int FretNumber;
     
-    public GuitarInteractionManager.FretButtonStatesEnum currFretButtonStateEnum = GuitarInteractionManager.FretButtonStatesEnum.NotSelected;
+    public UnityEvent OnFretStateChanged;
+    
+    private GuitarInteractionManager.FretButtonStatesEnum currFretButtonStateEnum = GuitarInteractionManager.FretButtonStatesEnum.NotSelected;
 
     public GuitarInteractionManager.FretButtonStatesEnum CurrFretButtonStateEnum
     {
         get => currFretButtonStateEnum;
-        set => currFretButtonStateEnum = value;
+        set
+        {
+            Debug.Log($"[FretButton] Setting state for fret string={StringRow}, fret={FretNumber} to {value}");
+            currFretButtonStateEnum = value;
+            ActivateButtonState(value == GuitarInteractionManager.FretButtonStatesEnum.Selected);
+        }
     }
 
     public Image GetImageComponent { get; private set; }
@@ -36,24 +44,25 @@ public class FretButton : MonoBehaviour
     
     private void ButtonPressed()
     {
-        Debug.Log($"Fuck string row = {StringRow}, fret number = {FretNumber} ");
+        Debug.Log($"[FretButton] Button Pressed: string={StringRow}, fret={FretNumber}");
 
-        ActivateButtonState(currFretButtonStateEnum == GuitarInteractionManager.FretButtonStatesEnum.NotSelected);
-
+        CurrFretButtonStateEnum = GuitarInteractionManager.FretButtonStatesEnum.Selected;
+        
         GuitarInteractionManager.FretButtonPressed(this);
+        
+        OnFretStateChanged.Invoke();
     }
 
     public void ActivateButtonState(bool activate)
     {
+        Debug.Log($"[FretButton] Activating state for fret string={StringRow}, fret={FretNumber}. Activate={activate}");
         if (activate)
         {
             GetImageComponent.color = Color.chocolate;
-            CurrFretButtonStateEnum = GuitarInteractionManager.FretButtonStatesEnum.Selected;
         }
         else
         {
             GetImageComponent.color = Color.white;
-            CurrFretButtonStateEnum = GuitarInteractionManager.FretButtonStatesEnum.NotSelected;
         }
     }
 }

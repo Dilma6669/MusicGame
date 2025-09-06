@@ -5,8 +5,8 @@ using System.Collections.Generic;
 public struct Spell
 {
     public SpellType spellType;
-    // We are no longer using a list of frets.
-    public FretPattern RequiredFrets;
+    // We are now using an array to hold 4 fret patterns
+    public FretPattern[] RequiredFrets;
     public StrumPattern RequiredStrums;
 }
 
@@ -56,12 +56,9 @@ public struct FretPattern
 
 public enum SpellType
 {
-    // Default value for a new spell
     None,
-
-    // Your spells go here.
-    // Example:
-    C_Major_Chord,
-    G_Major_Chord,
-    A_Minor_Chord
+    TestSpell1,
+    TestSpell2,
+    Charm,
+    Intimidate
 }
