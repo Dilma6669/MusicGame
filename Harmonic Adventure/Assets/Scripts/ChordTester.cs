@@ -23,7 +23,7 @@ public class ChordTester : MonoBehaviour
         // --- DEFINE C Major CHORD (x32010) ---
         FretPattern cMajorPattern = new FretPattern
         {
-            string_1_Fret = -1, // Muted
+            string_1_Fret = 0, // Muted
             string_2_Fret = 3,
             string_3_Fret = 2,
             string_4_Fret = 0,
@@ -45,7 +45,7 @@ public class ChordTester : MonoBehaviour
         // --- DEFINE A Minor CHORD (x02210) ---
         FretPattern aMinorPattern = new FretPattern
         {
-            string_1_Fret = -1, // Muted
+            string_1_Fret = 0, // Muted
             string_2_Fret = 0,
             string_3_Fret = 2,
             string_4_Fret = 2,
@@ -64,6 +64,28 @@ public class ChordTester : MonoBehaviour
             string_6_Fret = 1,
         };
         
+        // --- DEFINE E Major CHORD (022100) ---
+        FretPattern eMajorPattern = new FretPattern
+        {
+            string_1_Fret = 0,
+            string_2_Fret = 2,
+            string_3_Fret = 2,
+            string_4_Fret = 1,
+            string_5_Fret = 0,
+            string_6_Fret = 0,
+        };
+        
+        // --- DEFINE D Minor CHORD (x-x-0231) ---
+        FretPattern dMinorPattern = new FretPattern
+        {
+            string_1_Fret = -1,
+            string_2_Fret = -1,
+            string_3_Fret = 0,
+            string_4_Fret = 2,
+            string_5_Fret = 3,
+            string_6_Fret = 1,
+        };
+
         // Define the StrumPattern for all test spells
         StrumPattern simpleDownStrum = new StrumPattern
         {
@@ -75,6 +97,32 @@ public class ChordTester : MonoBehaviour
             strum_6 = GuitarInteractionManager.StrumButtonStatesEnum.Down,
             strum_7 = GuitarInteractionManager.StrumButtonStatesEnum.Down,
             strum_8 = GuitarInteractionManager.StrumButtonStatesEnum.Down
+        };
+        
+        // --- DEFINE ALTERNATING STRUM (DUDUDUDU) ---
+        StrumPattern alternatingStrum = new StrumPattern
+        {
+            strum_1 = GuitarInteractionManager.StrumButtonStatesEnum.Down,
+            strum_2 = GuitarInteractionManager.StrumButtonStatesEnum.Up,
+            strum_3 = GuitarInteractionManager.StrumButtonStatesEnum.Down,
+            strum_4 = GuitarInteractionManager.StrumButtonStatesEnum.Up,
+            strum_5 = GuitarInteractionManager.StrumButtonStatesEnum.Down,
+            strum_6 = GuitarInteractionManager.StrumButtonStatesEnum.Up,
+            strum_7 = GuitarInteractionManager.StrumButtonStatesEnum.Down,
+            strum_8 = GuitarInteractionManager.StrumButtonStatesEnum.Up
+        };
+        
+        // --- DEFINE CHARM STRUM (D-DU-DU-) ---
+        StrumPattern charmStrum = new StrumPattern
+        {
+            strum_1 = GuitarInteractionManager.StrumButtonStatesEnum.Down,
+            strum_2 = GuitarInteractionManager.StrumButtonStatesEnum.Skip,
+            strum_3 = GuitarInteractionManager.StrumButtonStatesEnum.Down,
+            strum_4 = GuitarInteractionManager.StrumButtonStatesEnum.Up,
+            strum_5 = GuitarInteractionManager.StrumButtonStatesEnum.Skip,
+            strum_6 = GuitarInteractionManager.StrumButtonStatesEnum.Down,
+            strum_7 = GuitarInteractionManager.StrumButtonStatesEnum.Up,
+            strum_8 = GuitarInteractionManager.StrumButtonStatesEnum.Skip
         };
 
 
@@ -109,6 +157,38 @@ public class ChordTester : MonoBehaviour
         testSpell2.RequiredStrums = simpleDownStrum;
         
         spellManager.AllSpells.Add(testSpell2);
+
+        // -------------------------------------------------------------
+        // Define an Intimidate Spell: E Major -> D Minor
+        // -------------------------------------------------------------
+        Spell intimidateSpell = new Spell();
+        intimidateSpell.spellType = SpellType.Intimidate;
+        
+        intimidateSpell.RequiredFrets = new FretPattern[4];
+        intimidateSpell.RequiredFrets[0] = eMajorPattern;
+        intimidateSpell.RequiredFrets[1] = dMinorPattern;
+        intimidateSpell.RequiredFrets[2] = eMajorPattern;
+        intimidateSpell.RequiredFrets[3] = dMinorPattern;
+        
+        intimidateSpell.RequiredStrums = alternatingStrum;
+        
+        spellManager.AllSpells.Add(intimidateSpell);
+        
+        // -------------------------------------------------------------
+        // Define a Charm Spell: C Major -> A Minor
+        // -------------------------------------------------------------
+        Spell charmSpell = new Spell();
+        charmSpell.spellType = SpellType.Charm;
+        
+        charmSpell.RequiredFrets = new FretPattern[4];
+        charmSpell.RequiredFrets[0] = cMajorPattern;
+        charmSpell.RequiredFrets[1] = aMinorPattern;
+        charmSpell.RequiredFrets[2] = cMajorPattern;
+        charmSpell.RequiredFrets[3] = aMinorPattern;
+        
+        charmSpell.RequiredStrums = charmStrum;
+        
+        spellManager.AllSpells.Add(charmSpell);
 
         Debug.Log("Test chords loaded into SpellManager.");
     }
