@@ -1,0 +1,23 @@
+﻿title: Start
+---
+Narrator: You arrive at Aria's Crossing, a sleepy town nestled in the mountains.
+Narrator: The air here hums with a strange melody.
+
+-> Explore the town
+    <<jump Explore>>
+-> Go to the tavern
+    <<jump Tavern>>
+
+===
+title: Explore
+position: 300,111
+color: blue
+---
+Narrator: The streets are narrow and cobblestone. A strange symbol is carved into a nearby fountain.
+===
+title: Tavern
+color: blue
+position: 303,-58
+---
+Narrator: The tavern is warm and smells of old ale and spiced cider.
+===
