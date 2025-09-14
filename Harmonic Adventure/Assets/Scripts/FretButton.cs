@@ -10,6 +10,8 @@ public class FretButton : MonoBehaviour
     public int StringRow;
     public int FretNumber;
     
+    public bool IsMuted { get; set; }
+    
     public UnityEvent OnFretStateChanged;
     
     private GuitarInteractionManager.FretButtonStatesEnum currFretButtonStateEnum = GuitarInteractionManager.FretButtonStatesEnum.NotSelected;
@@ -19,7 +21,7 @@ public class FretButton : MonoBehaviour
         get => currFretButtonStateEnum;
         set
         {
-            Debug.Log($"[FretButton] Setting state for fret string={StringRow}, fret={FretNumber} to {value}");
+          //  Debug.Log($"[FretButton] Setting state for fret string={StringRow}, fret={FretNumber} to {value}");
             currFretButtonStateEnum = value;
             ActivateButtonState(value == GuitarInteractionManager.FretButtonStatesEnum.Selected);
         }
@@ -55,10 +57,17 @@ public class FretButton : MonoBehaviour
 
     public void ActivateButtonState(bool activate)
     {
-        Debug.Log($"[FretButton] Activating state for fret string={StringRow}, fret={FretNumber}. Activate={activate}");
+      //  Debug.Log($"[FretButton] Activating state for fret string={StringRow}, fret={FretNumber}. Activate={activate}");
         if (activate)
         {
-            GetImageComponent.color = Color.chocolate;
+            if (IsMuted)
+            {
+                GetImageComponent.color = Color.grey;
+            }
+            else
+            {
+                GetImageComponent.color = Color.chocolate;
+            }
         }
         else
         {

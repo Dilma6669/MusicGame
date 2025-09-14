@@ -1016,19 +1016,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &60172890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1781,19 +1769,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &159832156
 GameObject:
   m_ObjectHideFlags: 0
@@ -1932,19 +1908,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &166989179
 GameObject:
   m_ObjectHideFlags: 0
@@ -2083,19 +2047,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &172872884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2914,19 +2866,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &261846864
 GameObject:
   m_ObjectHideFlags: 0
@@ -3065,19 +3005,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &280301413
 GameObject:
   m_ObjectHideFlags: 0
@@ -3216,19 +3144,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &298809221
 GameObject:
   m_ObjectHideFlags: 0
@@ -3367,19 +3283,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &312488524
 GameObject:
   m_ObjectHideFlags: 0
@@ -3518,19 +3422,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &316346624
 GameObject:
   m_ObjectHideFlags: 0
@@ -4088,19 +3980,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &335057518
 GameObject:
   m_ObjectHideFlags: 0
@@ -4239,19 +4119,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &342783820
 GameObject:
   m_ObjectHideFlags: 0
@@ -4390,19 +4258,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &352171900
 GameObject:
   m_ObjectHideFlags: 0
@@ -4541,19 +4397,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &365713329
 GameObject:
   m_ObjectHideFlags: 0
@@ -4828,19 +4672,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &369669103
 GameObject:
   m_ObjectHideFlags: 0
@@ -4979,19 +4811,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &383681897
 GameObject:
   m_ObjectHideFlags: 0
@@ -5476,19 +5296,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &406188354
 GameObject:
   m_ObjectHideFlags: 0
@@ -6344,19 +6152,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &453037383
 GameObject:
   m_ObjectHideFlags: 0
@@ -6631,19 +6427,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &463460534
 GameObject:
   m_ObjectHideFlags: 0
@@ -8067,19 +7851,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &590214065
 GameObject:
   m_ObjectHideFlags: 0
@@ -8354,19 +8126,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &609584430
 GameObject:
   m_ObjectHideFlags: 0
@@ -8505,19 +8265,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &613830736
 GameObject:
   m_ObjectHideFlags: 0
@@ -8656,19 +8404,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -8891,19 +8627,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &675007905
 GameObject:
   m_ObjectHideFlags: 0
@@ -9178,19 +8902,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &695737216
 GameObject:
   m_ObjectHideFlags: 0
@@ -9465,19 +9177,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &703732155
 GameObject:
   m_ObjectHideFlags: 0
@@ -9752,19 +9452,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &747942419
 GameObject:
   m_ObjectHideFlags: 0
@@ -10806,19 +10494,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &845396985
 GameObject:
   m_ObjectHideFlags: 0
@@ -10957,19 +10633,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &846458037
 GameObject:
   m_ObjectHideFlags: 0
@@ -11108,19 +10772,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &859088038
 GameObject:
   m_ObjectHideFlags: 0
@@ -11395,19 +11047,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &872527760
 GameObject:
   m_ObjectHideFlags: 0
@@ -11682,19 +11322,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &890529114
 GameObject:
   m_ObjectHideFlags: 0
@@ -11833,19 +11461,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &891631919
 GameObject:
   m_ObjectHideFlags: 0
@@ -12528,19 +12144,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &992692512
 GameObject:
   m_ObjectHideFlags: 0
@@ -13359,19 +12963,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1028330722
 GameObject:
   m_ObjectHideFlags: 0
@@ -13782,19 +13374,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1072839781
 GameObject:
   m_ObjectHideFlags: 0
@@ -14069,19 +13649,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1084867512
 GameObject:
   m_ObjectHideFlags: 0
@@ -14567,19 +14135,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1163621968
 GameObject:
   m_ObjectHideFlags: 0
@@ -14990,19 +14546,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1209577799
 GameObject:
   m_ObjectHideFlags: 0
@@ -15277,19 +14821,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1236860927
 GameObject:
   m_ObjectHideFlags: 0
@@ -15564,19 +15096,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1265787430
 GameObject:
   m_ObjectHideFlags: 0
@@ -15715,19 +15235,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1279289658
 GameObject:
   m_ObjectHideFlags: 0
@@ -15866,19 +15374,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1286467627
 GameObject:
   m_ObjectHideFlags: 0
@@ -16289,19 +15785,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1311715708
 GameObject:
   m_ObjectHideFlags: 0
@@ -16576,19 +16060,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1319101060
 GameObject:
   m_ObjectHideFlags: 0
@@ -16727,19 +16199,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1329016509
 GameObject:
   m_ObjectHideFlags: 0
@@ -16878,19 +16338,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1335316537
 GameObject:
   m_ObjectHideFlags: 0
@@ -17029,19 +16477,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1345321452
 GameObject:
   m_ObjectHideFlags: 0
@@ -17180,19 +16616,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1345528371
 GameObject:
   m_ObjectHideFlags: 0
@@ -17331,19 +16755,163 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!1 &1349397291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1349397294}
+  - component: {fileID: 1349397293}
+  - component: {fileID: 1349397295}
+  - component: {fileID: 1349397292}
+  m_Layer: 0
+  m_Name: AudioMicrophoneTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1349397292
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349397291}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1349397293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349397291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83f6c2fc7aab9f944a8694306d9b14a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioInputManager
+--- !u!4 &1349397294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349397291}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1349397295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349397291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5c128b9cef4d8d915a2f365af0e046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FrequencyAnalyzer
+  sampleSize: 1024
 --- !u!1 &1350121384
 GameObject:
   m_ObjectHideFlags: 0
@@ -17692,19 +17260,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1375293232
 GameObject:
   m_ObjectHideFlags: 0
@@ -17843,19 +17399,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1447962317
 GameObject:
   m_ObjectHideFlags: 0
@@ -17994,19 +17538,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1451144981
 GameObject:
   m_ObjectHideFlags: 0
@@ -18145,19 +17677,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1451359042
 GameObject:
   m_ObjectHideFlags: 0
@@ -19461,19 +18981,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1551288484
 GameObject:
   m_ObjectHideFlags: 0
@@ -19561,7 +19069,6 @@ MonoBehaviour:
       strum_6: 0
       strum_7: 0
       strum_8: 0
-  GuitarManager: {fileID: 1551288488}
   ChordSaver: {fileID: 1551288489}
   ResultPanel: {fileID: 143653302}
 --- !u!114 &1551288488
@@ -19791,19 +19298,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1568251729
 GameObject:
   m_ObjectHideFlags: 0
@@ -19942,19 +19437,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1568563536
 GameObject:
   m_ObjectHideFlags: 0
@@ -20365,19 +19848,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1638819115
 GameObject:
   m_ObjectHideFlags: 0
@@ -21354,19 +20825,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1731821444
 GameObject:
   m_ObjectHideFlags: 0
@@ -21505,19 +20964,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1734999226
 GameObject:
   m_ObjectHideFlags: 0
@@ -21656,19 +21103,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1791119140
 GameObject:
   m_ObjectHideFlags: 0
@@ -21943,19 +21378,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1792858206
 GameObject:
   m_ObjectHideFlags: 0
@@ -22094,19 +21517,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1800544149
 GameObject:
   m_ObjectHideFlags: 0
@@ -22728,19 +22139,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1838125379
 GameObject:
   m_ObjectHideFlags: 0
@@ -23015,19 +22414,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1855453000
 GameObject:
   m_ObjectHideFlags: 0
@@ -23344,19 +22731,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1881169293
 GameObject:
   m_ObjectHideFlags: 0
@@ -23631,19 +23006,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1885839965
 GameObject:
   m_ObjectHideFlags: 0
@@ -23782,19 +23145,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1906986349
 GameObject:
   m_ObjectHideFlags: 0
@@ -24143,19 +23494,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1933249337
 GameObject:
   m_ObjectHideFlags: 0
@@ -24430,19 +23769,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1949965173
 GameObject:
   m_ObjectHideFlags: 0
@@ -24581,19 +23908,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1965620826
 GameObject:
   m_ObjectHideFlags: 0
@@ -25759,19 +25074,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &2107732553
 GameObject:
   m_ObjectHideFlags: 0
@@ -26120,19 +25423,7 @@ MonoBehaviour:
   FretNumber: 0
   OnFretStateChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551288489}
-        m_TargetAssemblyTypeName: ChordSaver, Assembly-CSharp
-        m_MethodName: OnFretStateChanged
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &2125549604
 GameObject:
   m_ObjectHideFlags: 0
@@ -26414,3 +25705,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1855764913}
   - {fileID: 60172890}
+  - {fileID: 1349397294}

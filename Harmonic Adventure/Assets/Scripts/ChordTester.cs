@@ -23,7 +23,7 @@ public class ChordTester : MonoBehaviour
         // --- DEFINE C Major CHORD (x32010) ---
         FretPattern cMajorPattern = new FretPattern
         {
-            string_1_Fret = 0, // Muted
+            string_1_Fret = -1, // Muted
             string_2_Fret = 3,
             string_3_Fret = 2,
             string_4_Fret = 0,
@@ -45,7 +45,7 @@ public class ChordTester : MonoBehaviour
         // --- DEFINE A Minor CHORD (x02210) ---
         FretPattern aMinorPattern = new FretPattern
         {
-            string_1_Fret = 0, // Muted
+            string_1_Fret = -1, // Muted
             string_2_Fret = 0,
             string_3_Fret = 2,
             string_4_Fret = 2,
@@ -190,6 +190,6 @@ public class ChordTester : MonoBehaviour
         
         spellManager.AllSpells.Add(charmSpell);
 
-        Debug.Log("Test chords loaded into SpellManager.");
+//        Debug.Log("Test chords loaded into SpellManager.");
     }
 }

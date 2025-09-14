@@ -35,7 +35,7 @@ public class ChordSaver : MonoBehaviour
 
     public void SelectChordSlot(int slotIndex)
     {
-        Debug.Log($"[ChordSaver] Attempting to select slot {slotIndex}");
+//        Debug.Log($"[ChordSaver] Attempting to select slot {slotIndex}");
 
         if (slotIndex < 0 || slotIndex >= MAX_CHORDS)
         {
@@ -52,8 +52,8 @@ public class ChordSaver : MonoBehaviour
         currentActiveChordIndex = slotIndex;
         
         LoadChordPattern(currentActiveChordIndex, RecordedChords[currentActiveChordIndex]);
-        
-        Debug.Log($"[ChordSaver] Chord slot {slotIndex} selected.");
+      //  
+      //  Debug.Log($"[ChordSaver] Chord slot {slotIndex} selected.");
     }
     
     public void OnFretStateChanged()
@@ -82,19 +82,19 @@ public class ChordSaver : MonoBehaviour
         RecordedChords[slotIndex] = currentChord;
         displayChords[slotIndex] = currentChord;
         
-        Debug.Log($"[ChordSaver] Saving Frets to slot {slotIndex}.");
-        Debug.Log($"[ChordSaver] Saved frets: {currentChord.string_1_Fret},{currentChord.string_2_Fret}," +
-                  $"{currentChord.string_3_Fret},{currentChord.string_4_Fret}," +
-                  $"{currentChord.string_5_Fret},{currentChord.string_6_Fret} to slot {slotIndex}.");
+      //  Debug.Log($"[ChordSaver] Saving Frets to slot {slotIndex}.");
+      //  Debug.Log($"[ChordSaver] Saved frets: {currentChord.string_1_Fret},{currentChord.string_2_Fret}," +
+      //            $"{currentChord.string_3_Fret},{currentChord.string_4_Fret}," +
+      //            $"{currentChord.string_5_Fret},{currentChord.string_6_Fret} to slot {slotIndex}.");
     }
 
     private void LoadChordPattern(int slotIndex, FretPattern patternToLoad)
     {
-        Debug.Log($"[ChordSaver] Loading Frets to slot {slotIndex}.");
-        Debug.Log(
-            $"[ChordSaver] Loading frets: {patternToLoad.string_1_Fret}," +
-            $"{patternToLoad.string_2_Fret},{patternToLoad.string_3_Fret}," +
-            $"{patternToLoad.string_4_Fret},{patternToLoad.string_5_Fret},{patternToLoad.string_6_Fret}");
+//        Debug.Log($"[ChordSaver] Loading Frets to slot {slotIndex}.");
+    //    Debug.Log(
+    //        $"[ChordSaver] Loading frets: {patternToLoad.string_1_Fret}," +
+   //         $"{patternToLoad.string_2_Fret},{patternToLoad.string_3_Fret}," +
+    //        $"{patternToLoad.string_4_Fret},{patternToLoad.string_5_Fret},{patternToLoad.string_6_Fret}");
 
         GuitarInteractionManager.ClearAllSelectedFrets();
 

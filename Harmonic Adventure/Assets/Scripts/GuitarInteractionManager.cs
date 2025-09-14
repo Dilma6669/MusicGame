@@ -134,27 +134,41 @@ public class GuitarInteractionManager : MonoBehaviour
     }
 
 
+// In your GuitarInteractionManager.cs script
+
     public static void FretButtonPressed(FretButton fretButton)
     {
-        Debug.Log($"Guitar Interaction Manager FretButtonPressed string row = {fretButton.StringRow}, fret number = {fretButton.FretNumber} ");
+        Debug.Log(
+            $"[Guitar Interaction Manager] FretButtonPressed string row = {fretButton.StringRow}, fret number = {fretButton.FretNumber} ");
 
-        var fretsOnString = CurrSelectedFrets.Where(f => f.StringRow == fretButton.StringRow).ToList();
-        foreach (var fret in fretsOnString)
-        {
-            if (fret != fretButton)
+        bool alreadySelected = CurrSelectedFrets.Contains(fretButton);
+        
+            // TODO: HERE try to make the mute button go from mute to not mute colour even tho its still technically 
+            // selected.
+        
+            // First, clear any existing frets on the same string
+            var fretsOnString = CurrSelectedFrets.Where(f => f.StringRow == fretButton.StringRow).ToList();
+            foreach (var fret in fretsOnString)
             {
-                fret.CurrFretButtonStateEnum = FretButtonStatesEnum.NotSelected;
                 CurrSelectedFrets.Remove(fret);
+                fret.IsMuted = false; // Ensure it's not muted
+                fret.ActivateButtonState(false);
             }
-        }
 
-        // Add the newly selected fret to the list if it's not already there
-        if (!CurrSelectedFrets.Contains(fretButton))
-        {
+            // Now select the new fret and add it to the list
             CurrSelectedFrets.Add(fretButton);
-        }
+            fretButton.IsMuted = false; // The new selection is not muted by default
+            fretButton.ActivateButtonState(true);
+            
+            if (alreadySelected && fretButton.FretNumber == 0)
+            {
+                bool isMuted = !fretButton.IsMuted;
+                fretButton.IsMuted = isMuted;
+            
+                fretButton.ActivateButtonState(isMuted);
+            }
     }
-    
+
     public static void StrumButtonPressed(StrumButton strumButton)
     {
         Debug.Log($"Guitar Interaction Manager StrumButtonPressed strum number = {strumButton.StrumNumber} strum pattern = {strumButton.CurrStrumButtonStateEnum} ");
