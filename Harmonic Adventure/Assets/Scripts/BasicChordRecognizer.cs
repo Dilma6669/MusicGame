@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 [RequireComponent(typeof(AudioSource))]
-public class ChordRecognizer : MonoBehaviour
+public class BasicChordRecognizer : MonoBehaviour
 {
 	[Header("Microphone Configuration")]
 	[SerializeField] private string microphoneDevice = null; // Null for default microphone
